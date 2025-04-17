@@ -1,0 +1,19 @@
+{
+  "secrets": [
+    {
+      "file": "D:\\projects\\office\\testing\\.env",
+      "line": 1,
+      "types": [
+        "Secret Keyword"
+      ],
+      "is_false_positive": false,
+      "hashed_secret": "a8f6fab2bd64ea9901bdbf77edf2aad87c90cfd4",
+      "author": "shahbaz expedey",
+      "email": "shahbaz246246@gmail.com",
+      "date": "2025-04-17T12:47:20.000Z",
+      "commit": "65478320978aa4897d7f5d37d85522e70dad5b7f",
+      "message": "log aws secret"
+    }
+  ],
+  "missed_secrets": []
+}
