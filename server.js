@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-console.log("MONGODB_URI__", process.env.MONGODB_URI)
+console.log("AWS_SECRET__", process.env.AWS_SECRET)
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('Connected to MongoDB'))
