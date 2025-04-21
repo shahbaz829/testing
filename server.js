@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 console.log("AWS_SECRET__", process.env.AWS_SECRET)
-console.log("GIT_SECRET__", process.env.GIT_SECRET)
+// console.log("GIT_SECRET__", process.env.GIT_SECRET)
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('Connected to MongoDB'))
