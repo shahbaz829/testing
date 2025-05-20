@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import axios from 'axios';
 import userRoutes from './src/routes/userRoutes.js';
+import customerRoutes from './src/routes/customerRoutes.js';
 
 const app = express();
 
@@ -20,6 +21,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Routes
 app.use('/api/users', userRoutes);
+app.use('/api/customers', customerRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
